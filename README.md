@@ -1,2 +1,4 @@
 # memory_manage_embeddedC
-Tips and tricks that will help you make more optimized and cleaner Embedded C codes
+Controllers are the chips which are designed to perform very specific tasks. The have very limited memory, like 32KB Flash and 2KB RAM in ATmega328p.
+
+A lot of the time you don’t know what other requirements will come in for your product. In that case you need to add some more functionality to your firmware. If you keep adding more functionalities and keep interfacing more sensor/peripheral , you will run out of memory pretty quickly. So it is very important to take care of the memory otherwise before you know it there will be memory leaks and it will be infuriating to pin point the possible culprits. To make your life easier this repository contains codes that can help understand writing optimized codes.
